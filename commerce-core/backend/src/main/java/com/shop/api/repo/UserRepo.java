@@ -1,0 +1,1 @@
+package com.shop.api.repo; import com.shop.api.model.User; import org.springframework.data.jpa.repository.JpaRepository; import java.util.Optional; public interface UserRepo extends JpaRepository<User, Long> { Optional<User> findByEmailAndPassword(String e, String p); boolean existsByEmail(String e); }

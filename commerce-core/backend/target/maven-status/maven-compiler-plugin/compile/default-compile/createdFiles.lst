@@ -1,0 +1,6 @@
+com\shop\api\controller\AppController.class
+com\shop\api\model\Product.class
+com\shop\api\ApiApplication.class
+com\shop\api\repo\UserRepo.class
+com\shop\api\repo\ProductRepo.class
+com\shop\api\model\User.class
